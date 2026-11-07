@@ -1,4 +1,4 @@
-# Argus
+# Web-Monitor
 
 **A distributed web crawler that watches the internet change, and lets you ask it questions about what it finds.**
 
@@ -7,8 +7,6 @@ Named after Argus Panoptes, the many-eyed giant from Greek mythology whose whole
 ---
 
 ## What it does
-
-Point Argus at a set of websites (competitor pages, docs, a knowledge base, whatever you care about) and it will:
 
 1. **Crawl them properly.** Concurrent, respects `robots.txt`, rate-limited per host, resumable, and built so it can scale across multiple machines instead of just running threads on one box.
 2. **Watch them over time.** Re-crawls on a schedule and uses a local LLM to tell apart a real change (a price update, a new feature, a policy change) from noise (ads, view counters, timestamps that update on their own).

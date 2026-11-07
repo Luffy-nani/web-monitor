@@ -2,8 +2,6 @@
 
 **A distributed web crawler that watches the internet change, and lets you ask it questions about what it finds.**
 
-Named after Argus Panoptes, the many-eyed giant from Greek mythology whose whole job was to watch everything and miss nothing.
-
 ---
 
 ## What it does
